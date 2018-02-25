@@ -1,0 +1,335 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		693845B52041D5AC001695F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 693845B42041D5AC001695F9 /* AppDelegate.swift */; };
+		693845B72041D5AC001695F9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 693845B62041D5AC001695F9 /* ViewController.swift */; };
+		693845BA2041D5AC001695F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 693845B82041D5AC001695F9 /* Main.storyboard */; };
+		693845BC2041D5AC001695F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 693845BB2041D5AC001695F9 /* Assets.xcassets */; };
+		693845BF2041D5AC001695F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 693845BD2041D5AC001695F9 /* LaunchScreen.storyboard */; };
+		693845C72041D79E001695F9 /* LexService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 693845C62041D79E001695F9 /* LexService.swift */; };
+		6965BB242041DEA8000F69AF /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6965BB232041DEA8000F69AF /* Message.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		693845B12041D5AC001695F9 /* movie-database-lex-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "movie-database-lex-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		693845B42041D5AC001695F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		693845B62041D5AC001695F9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		693845B92041D5AC001695F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		693845BB2041D5AC001695F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		693845BE2041D5AC001695F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		693845C02041D5AC001695F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		693845C62041D79E001695F9 /* LexService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LexService.swift; sourceTree = "<group>"; };
+		6965BB232041DEA8000F69AF /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		693845AE2041D5AC001695F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		693845A82041D5AC001695F9 = {
+			isa = PBXGroup;
+			children = (
+				693845B32041D5AC001695F9 /* movie-database-lex-ios */,
+				693845B22041D5AC001695F9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		693845B22041D5AC001695F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				693845B12041D5AC001695F9 /* movie-database-lex-ios.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		693845B32041D5AC001695F9 /* movie-database-lex-ios */ = {
+			isa = PBXGroup;
+			children = (
+				6965BB232041DEA8000F69AF /* Message.swift */,
+				693845B42041D5AC001695F9 /* AppDelegate.swift */,
+				693845B62041D5AC001695F9 /* ViewController.swift */,
+				693845B82041D5AC001695F9 /* Main.storyboard */,
+				693845C62041D79E001695F9 /* LexService.swift */,
+				693845BB2041D5AC001695F9 /* Assets.xcassets */,
+				693845BD2041D5AC001695F9 /* LaunchScreen.storyboard */,
+				693845C02041D5AC001695F9 /* Info.plist */,
+			);
+			path = "movie-database-lex-ios";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		693845B02041D5AC001695F9 /* movie-database-lex-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 693845C32041D5AC001695F9 /* Build configuration list for PBXNativeTarget "movie-database-lex-ios" */;
+			buildPhases = (
+				693845AD2041D5AC001695F9 /* Sources */,
+				693845AE2041D5AC001695F9 /* Frameworks */,
+				693845AF2041D5AC001695F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "movie-database-lex-ios";
+			productName = "movie-database-lex-ios";
+			productReference = 693845B12041D5AC001695F9 /* movie-database-lex-ios.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		693845A92041D5AC001695F9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Carter Morgan Personal";
+				TargetAttributes = {
+					693845B02041D5AC001695F9 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 693845AC2041D5AC001695F9 /* Build configuration list for PBXProject "movie-database-lex-ios" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 693845A82041D5AC001695F9;
+			productRefGroup = 693845B22041D5AC001695F9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				693845B02041D5AC001695F9 /* movie-database-lex-ios */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		693845AF2041D5AC001695F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				693845BF2041D5AC001695F9 /* LaunchScreen.storyboard in Resources */,
+				693845BC2041D5AC001695F9 /* Assets.xcassets in Resources */,
+				693845BA2041D5AC001695F9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		693845AD2041D5AC001695F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				693845B72041D5AC001695F9 /* ViewController.swift in Sources */,
+				6965BB242041DEA8000F69AF /* Message.swift in Sources */,
+				693845B52041D5AC001695F9 /* AppDelegate.swift in Sources */,
+				693845C72041D79E001695F9 /* LexService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		693845B82041D5AC001695F9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				693845B92041D5AC001695F9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		693845BD2041D5AC001695F9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				693845BE2041D5AC001695F9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		693845C12041D5AC001695F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		693845C22041D5AC001695F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		693845C42041D5AC001695F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 54A9PU4B4N;
+				INFOPLIST_FILE = "movie-database-lex-ios/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.carter.morgan.movie-database-lex-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		693845C52041D5AC001695F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 54A9PU4B4N;
+				INFOPLIST_FILE = "movie-database-lex-ios/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.carter.morgan.movie-database-lex-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		693845AC2041D5AC001695F9 /* Build configuration list for PBXProject "movie-database-lex-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				693845C12041D5AC001695F9 /* Debug */,
+				693845C22041D5AC001695F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		693845C32041D5AC001695F9 /* Build configuration list for PBXNativeTarget "movie-database-lex-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				693845C42041D5AC001695F9 /* Debug */,
+				693845C52041D5AC001695F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 693845A92041D5AC001695F9 /* Project object */;
+}
